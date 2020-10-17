@@ -30,12 +30,12 @@ data("bottomly")
 length(param$lmean)
 param$lmean
 data("maqc")
-setwd("~/Desktop/Gil_LabWork/AIMS/AIMS_090518/Tfeb_NGS_analysis/011020_summary/Export/analysis")
+setwd("./analysis")
 dir()
 
 
 
-Final.working.data.rank<-readRDS("counts_sgRNAx3_h7.rds" )
+Final.working.data.rank<-readRDS("counts_sgRNAx3_h1.rds" )
 colnames(Final.working.data.rank)
 m<-Final.working.data.rank
 rm(Final.working.data.rank)
